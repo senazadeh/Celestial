@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(22, 22, 32);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(32, 32, 43);
+}
+.counter {
+    position: fixed;
+    display: inline;
+    top: 100px;
+    left: 200px;
+    height: 70px;
+    width: 90vw;
+    color: white;
+    background-color: rgb(22, 22, 32);
+}
+.search {
+    color: white;
+    display: inline;
+}
+.titles {
+    color: white;
+    position: fixed;
+    display: inline;
+    top: 170px;
+    left: 200px;
+    height: 100px;
+    width: 90vw;
+}
+#store {
+    display: inline;
+    margin-left: 1vw;
+}
+#product {
+    display: inline;
+    margin-left: 3vw;
+}
+#size {
+    display: inline;
+    margin-left: 5vw;
+}
+#price {
+    display: inline;
+    margin-left: 5vw;
+}
+#status {
+    display: inline;
+    margin-left: 5vw;
+}
+#actions {
+    display: inline;
+    margin-left: 5vw;
+}
+.sidebar {
+    position: fixed;
+    top: 100px;
+    width: 200px;
+    height: 90vh;
+    background-color: rgb(38, 38, 56);
+}
+.taskButton {
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+.task:hover {
+    cursor: pointer;
+}
+.system {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 25px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: rgb(32, 32, 43);
+}
+.connection {
+    color: white;
+    display: inline;
+    background-color: rgb(32, 32, 43);
+}
+.version {
+    color: white;
+    display: inline;
+    background-color: rgb(32, 32, 43);
+}
