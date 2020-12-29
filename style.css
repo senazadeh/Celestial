@@ -12,6 +12,12 @@
     height: 100px;
     background-color: rgb(32, 32, 43);
 }
+.fab {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+    background-color: rgb(32, 32, 43);
+}
 .counter {
     position: fixed;
     display: inline;
