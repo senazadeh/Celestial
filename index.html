@@ -8,7 +8,12 @@
 <title>Bot</title>
 
 <header>
-    <div class="header"></div>
+    <div class="header">
+
+
+
+
+    </div>
     <div class="counter">Tasks --
         <input class="search" type="text" placeholder="Search">
     </div>
@@ -24,12 +29,14 @@
 
 <body>
     <div class="sidebar">
-        <div class="taskButton">Create Tasks</div>
-        <div class="taskButton">Clear Tasks</div>
-        <div class="taskButton">Start Tasks</div>
-        <div class="taskButton">Stop Tasks</div>
-        <div class="taskButton">Edit Tasks</div>
-        <div class="taskButton">Captcha</div>
+        <div class="taskButtons">
+            <div class="taskButton" id="createTask">Create Tasks</div>
+            <div class="taskButton" id="clearTask">Clear Tasks</div>
+            <div class="taskButton" id="startTask">Start Tasks</div>
+            <div class="taskButton" id="stopTask">Stop Tasks</div>
+            <div class="taskButton" id="editTask">Edit Tasks</div>
+            <div class="taskButton" id="captcha">Captcha</div>
+        </div>
     </div>
     <div class="taskContainer"> 
         
@@ -38,8 +45,14 @@
 
 <footer>
     <div class="system">
-        <div class="connection">Not-Connected</div>
-        <div class="version">Version ---</div>
+        <div class="version">Version 1.0.0</div>
+        <p id="demo"></p>
+
+        <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d;
+        </script>
+        
     </div>
 </footer>
 

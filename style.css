@@ -37,15 +37,15 @@
 }
 #store {
     display: inline;
-    margin-left: 1vw;
+    margin-left: 3vw;
 }
 #product {
     display: inline;
-    margin-left: 3vw;
+    margin-left: 8vw;
 }
 #size {
     display: inline;
-    margin-left: 5vw;
+    margin-left: 10vw;
 }
 #price {
     display: inline;
@@ -57,7 +57,7 @@
 }
 #actions {
     display: inline;
-    margin-left: 5vw;
+    margin-left: 20vw;
 }
 .sidebar {
     position: fixed;
@@ -68,13 +68,37 @@
 }
 .taskButton {
     color: white;
+    width: 90;
     border-radius: 40px;
     text-align: center;
     margin: 10px;
-    padding: 15px;
+    padding: 10px;
+    border: solid;
+    border-width: 2px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
 }
-.task:hover {
+.taskButton:hover {
     cursor: pointer;
+    background-color: rgb(93, 93, 119);
+}
+#createTask {
+    border-color: rgb(38, 100, 68);
+}
+#clearTask {
+    border-color: rgb(124, 53, 55);
+}
+#startTask {
+    border-color: rgb(38, 100, 68);
+}
+#stopTask {
+    border-color: rgb(124, 53, 55);
+}
+#editTask {
+    border-color: rgb(71, 65, 119);
+}
+#captcha {
+    border-color: rgb(71, 65, 119);
 }
 .system {
     position: fixed;
@@ -85,14 +109,20 @@
     padding-top: 5px;
     padding-left: 10px;
     background-color: rgb(32, 32, 43);
-}
-.connection {
-    color: white;
-    display: inline;
-    background-color: rgb(32, 32, 43);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .version {
     color: white;
-    display: inline;
+    grid-column: 1;
+    text-align: left;
+    padding-right: 10px;
+    background-color: rgb(32, 32, 43);
+}
+#demo {
+    color: white;
+    grid-column: 2;
+    text-align: right;
+    padding-right: 10px;
     background-color: rgb(32, 32, 43);
 }
