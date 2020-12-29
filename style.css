@@ -18,7 +18,7 @@
     color: white;
     background-color: rgb(32, 32, 43);
 }
-.counter {
+.wtf {
     position: fixed;
     display: inline;
     top: 100px;
@@ -72,11 +72,23 @@
     height: 90vh;
     background-color: rgb(38, 38, 56);
 }
+.counter {
+    text-align: center;
+    margin-top: 30px;
+    padding: 9px;
+    border: solid;
+    border-width: 2px;
+    width: 90%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-color: rgb(71, 65, 119);
+}
 .taskButtons {
-    position: fixed;
-    bottom: 30px;
-    width: 180px;
-    margin-left: 10px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(38, 38, 56);
 }
 .taskButton {
