@@ -81,6 +81,9 @@
     height: 400px;
     background-color: white;
 }
+.task {
+
+}
 .sidebar {
     position: fixed;
     top: 100px;
@@ -167,7 +170,7 @@
     padding-right: 10px;
     background-color: rgb(32, 32, 43);
 }
-#demo {
+#time_span {
     color: white;
     grid-column: 2;
     text-align: right;
