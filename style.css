@@ -47,6 +47,7 @@
     left: 200px;
     height: 100px;
     width: 90vw;
+    padding-top: 20px;
 }
 #store {
     display: inline;
@@ -71,6 +72,14 @@
 #actions {
     display: inline;
     margin-left: 20vw;
+}
+.taskContainer {
+    position: fixed;
+    top: 270px;
+    left: 200px;
+    width: 90vw;
+    height: 400px;
+    background-color: white;
 }
 .sidebar {
     position: fixed;
