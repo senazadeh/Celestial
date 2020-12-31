@@ -21,3 +21,14 @@ function updateTime(){
     document.getElementById('time_span').innerHTML = t_str;
 }
 setInterval(updateTime, 1000);
+
+
+
+var counter = 0;
+function increaseCount() {
+    document.getElementById('inc').value = ++counter;
+}
+function decreaseCount() {
+    counter = 0;
+    document.getElementById('inc').value = 0;
+}

@@ -30,12 +30,13 @@
 
 <body>
     <div class="sidebar">
-        <div class="counter">Active Tasks<br><br>--
-
+        <div class="activeTasks">Active Tasks
+            <input class="counter" type="text" id="inc" value="0"></input>
         </div>
+        
         <div class="taskButtons">
-            <div class="taskButton" id="createTask">Create Tasks</div>
-            <div class="taskButton" id="clearTask">Clear Tasks</div>
+            <div class="taskButton" id="createTask" onclick="increaseCount()">Create Tasks</div>
+            <div class="taskButton" id="clearTask" onclick="decreaseCount()">Clear Tasks</div>
             <div class="taskButton" id="startTask">Start Tasks</div>
             <div class="taskButton" id="stopTask">Stop Tasks</div>
             <div class="taskButton" id="editTask">Edit Tasks</div>
