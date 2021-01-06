@@ -6,6 +6,7 @@ function updateTime(){
     var hours = currentTime.getHours()
     var minutes = currentTime.getMinutes()
     var seconds = currentTime.getSeconds()
+    
     if (minutes < 10){
         minutes = "0" + minutes
     }
@@ -28,7 +29,6 @@ var counter = 0;
 function increaseCount() {
     document.getElementById('inc').value = ++counter;
 }
-function decreaseCount() {
-    counter = 0;
+function resetCount() {
     document.getElementById('inc').value = 0;
 }
